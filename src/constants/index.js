@@ -17,254 +17,213 @@ import {
   postgresql,
   rubyrails,
   graphql,
-  komikult,
+  python,
+  flask,
+  cpp,
+  express,
+  sqlalchemy,
+  sqlite,
+  pytest,
+  aws,
+  gcp,
+  verilog,
+  assembly,
+
+  starco,
+  pixelPond,
+  ceravoLogo,
+  calpolyLogo,
   leaderboard,
   math,
   movie,
   nyeusi,
   space,
-  coverhunt,
-  dcc,
-  kelhel,
-  microverse,
-} from '../assets';
+} from "../assets";
 
 export const navLinks = [
   {
-    id: 'about',
-    title: 'About',
+    id: "about",
+    title: "About",
   },
   {
-    id: 'projects',
-    title: 'Projects',
+    id: "projects",
+    title: "Projects",
   },
   {
-    id: 'contact',
-    title: 'Contact',
+    id: "contact",
+    title: "Contact",
   },
 ];
 
 const services = [
   {
-    title: 'Frontend Developer',
+    title: "Frontend Developer",
     icon: frontend,
   },
   {
-    title: 'Backend Developer',
+    title: "Backend Developer",
     icon: backend,
   },
   {
-    title: 'UI/UX Design',
+    title: "UI/UX Design",
     icon: ux,
   },
   {
-    title: 'Software Prototyping',
+    title: "Software Prototyping",
     icon: prototyping,
   },
 ];
 
 const technologies = [
   {
-    name: 'HTML 5',
+    name: "HTML 5",
     icon: html,
   },
   {
-    name: 'CSS 3',
+    name: "CSS 3",
     icon: css,
   },
   {
-    name: 'JavaScript',
+    name: "JavaScript",
     icon: javascript,
   },
   {
-    name: 'TypeScript',
-    icon: typescript,
-  },
-  {
-    name: 'React JS',
+    name: "React JS",
     icon: reactjs,
   },
   {
-    name: 'Redux Toolkit',
+    name: "Redux Toolkit",
     icon: redux,
   },
   {
-    name: 'Tailwind CSS',
-    icon: tailwind,
-  },
-  {
-    name: 'Node JS',
+    name: "Node JS",
     icon: nodejs,
   },
   {
-    name: 'Rails',
-    icon: rubyrails,
-  },
-  {
-    name: 'graphql',
-    icon: graphql,
-  },
-  {
-    name: 'postgresql',
+    name: "postgresql",
     icon: postgresql,
   },
   {
-    name: 'git',
+    name: "git",
     icon: git,
   },
   {
-    name: 'figma',
-    icon: figma,
+    name: "docker",
+    icon: docker,
+  },
+
+  {
+    name: 'Python',
+    icon: python,
   },
   {
-    name: 'docker',
-    icon: docker,
+    name: 'Flask',
+    icon: flask,
+  },
+  {
+    name: 'C++',
+    icon: cpp,
+  },
+  {
+    name: 'Express',
+    icon: express,
+  },
+  {
+    name: 'SQLAlchemy',
+    icon: sqlalchemy,
+  },
+  {
+    name: 'SQLite',
+    icon: sqlite,
+  },
+  {
+    name: 'Pytest',
+    icon: pytest,
+  },
+  {
+    name: 'AWS',
+    icon: aws,
+  },
+  {
+    name: 'Google Cloud Services',
+    icon: gcp,
+  },
+  {
+    name: 'Verilog',
+    icon: verilog,
+  },
+  {
+    name: 'Assembly',
+    icon: assembly,
   },
 ];
 
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
-    icon: coverhunt,
-    iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    title: "Transportation Manager",
+    company_name: "Ceravo Care",
+    icon: ceravoLogo,
+    iconBg: "#333333",
+    date: "Aug 2017 - Present",
+    description:
+      "Led a transportation team, enhancing performance and efficiency, impacting 30+ team members. Overhauled trip routing, achieving a 20% improvement in operational efficiency. Spearheaded staff management, reducing turnover by 15%.",
   },
   {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
-    icon: microverse,
-    iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
-  },
-  {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
-    icon: kelhel,
-    iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
-  },
-  {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
-    icon: dcc,
-    iconBg: '#333333',
-    date: 'Sep 2022 - Present',
+    title: "Teacher Assistant (Volunteer)",
+    company_name: "Cal Poly Pomona University",
+    icon: calpolyLogo,
+    iconBg: "#333333",
+    date: "Aug 2021 - Dec 2021",
+    description:
+      "Enhanced student understanding in Microcontroller & Digital Logics Design, yielding a 10% rise in average grades. Led multiple tutorial sessions, showcasing organizational and time management skills, benefiting over 30 students.",
   },
 ];
-
 const projects = [
   {
-    id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'mongodb',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'tailwind',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
-  },
-  {
-    id: 'project-2',
-    name: 'Leaderboard',
+    id: "project-1",
+    name: "Starco",
     description:
-      'A leaderboard list app that displays scores submitted by different players.',
+      "Starco is a meticulously engineered clone of the famous food delivery platform UberEats, blending a robust Flask backend with a dynamic React frontend, managed efficiently through Redux. This platform revolutionizes the food delivery experience by offering a rich array of features, allowing users to easily browse through a diverse selection of restaurants and view detailed information about each, including menus and user reviews. Additionally, users can personalize their experience by marking their favorite restaurants, adding a layer of engagement to their browsing journey. Starco's advanced search functionality stands out, offering dual-mode capabilities for users to find restaurants either by geographical location or city-based search, simplifying discovery while adding depth to the search experience. The platform also encourages community interaction with a dynamic review system, enabling users to leave, update, or remove reviews, ensuring feedback remains relevant and current. At its core, Starco boasts a streamlined order management system, where users can navigate menus, add items to their cart, and experience a simulated checkout process, showcasing the potential of real-world transaction processing. The integration of Flask and React, enhanced by Redux, ensures a responsive and intuitive user interface, making the platform user-friendly for both tech-savvy individuals and newcomers to online food ordering. Overall, Starco is more than just an UberEats clone; it's a testament to sophisticated web application development, demonstrating comprehensive functionality and attention to detail, essential for modern food delivery services.",
     tags: [
       {
-        name: 'react',
-        color: 'blue-text-gradient',
+        name: "react",
+        color: "blue-text-gradient",
       },
       {
-        name: 'restapi',
-        color: 'green-text-gradient',
+        name: "mongodb",
+        color: "green-text-gradient",
       },
       {
-        name: 'scss',
-        color: 'pink-text-gradient',
+        name: "tailwind",
+        color: "pink-text-gradient",
       },
     ],
-    image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
+    image: starco,
+    repo: "https://github.com/amalakkad93/StarcoEat",
+    demo: "https://gotham-eat.onrender.com",
   },
   {
-    id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: math,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
-  },
-  {
-    id: 'project-4',
-    name: 'Movie Metro',
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: movie,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
-  },
-  {
-    id: 'project-5',
-    name: 'Nyeusi Fest Site',
+    id: "project-2",
+    name: "PixelPond",
     description:
-      'This is a demo concert website for a music festival called Nyeusi.',
+      "PixelPond, as a meticulously crafted clone of Flickr, offers a robust platform for photo sharing and management. It stands out for its comprehensive features, enabling users to not only upload and organize their photography but also to engage in a community-driven environment. Users can comment on photos, initiating interactive dialogues and connections. These comments are dynamic, with the flexibility for editing or removal, fostering a lively and evolving conversation. A highlight of PixelPond's user-centric approach is its advanced search mechanism. Unlike basic search functionalities, it goes a step further by incorporating both user and tag-based filtering. This dual-mode search system allows users to find photos with precision, either by searching for specific users or by exploring tags associated with the photos. This feature makes navigating through the vast array of images both intuitive and efficient, enhancing the user's journey through the platform. The seamless integration of Flask's powerful backend with React's responsive frontend, augmented by Redux for effective state management, positions PixelPond as a prime example of sophisticated web application development. The attention to detail in replicating Flickr's celebrated functionalities, coupled with additional user-friendly features, underscores PixelPond's commitment to delivering a superior photo-sharing experience.",
     tags: [
       {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
+        name: "react",
+        color: "blue-text-gradient",
       },
       {
-        name: 'supabase',
-        color: 'green-text-gradient',
+        name: "restapi",
+        color: "green-text-gradient",
       },
       {
-        name: 'css',
-        color: 'pink-text-gradient',
+        name: "scss",
+        color: "pink-text-gradient",
       },
     ],
-    image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
+    image: pixelPond,
+    repo: "https://github.com/amalakkad93/PixelPond",
+    demo: "https://pixelpond-rhct.onrender.com",
   },
 ];
 

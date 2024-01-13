@@ -37,12 +37,27 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
-        sapiente ipsum dolorum dicta eaque cumque inventore molestias, beatae ea
-        quaerat alias accusamus voluptas autem! Alias odit voluptates in totam
-        vitae dignissimos minus eaque culpa unde tempore dolore aperiam
-        obcaecati voluptatum aliquam corrupti, suscipit accusamus! Odit unde
-        veniam dolorum ipsum doloribus.
+        Hello! I'm Anas Alakkad, a dedicated Software Engineer with a
+        deep-rooted passion for coding and innovation. My journey in
+        software development took a definitive turn in my final
+        semester at California State Polytechnic University, Pomona,
+        when I realized my true calling lay in software, more than in
+        hardware.
+
+        My academic background in Computer Engineering, highlighted by
+        a GPA of 3.62, laid a strong foundation in both hardware and
+        software realms. While I delved into C++ and microcontroller
+        programming—developing sensor systems, digital clocks, and
+        even a game called “Game of Life”—I found myself increasingly
+        drawn towards the intricacies of software development.
+
+        Beyond my technical prowess, my role as a Transportation
+        Manager at Ceravo Care honed my leadership skills and
+        operational efficiency. This blend of technical expertise,
+        managerial experience, and a continuous drive for learning
+        positions me uniquely in the field of software engineering.
+
+        In my free time, I enjoy build things, hiking, and read books, which reflect my creativity and problem-solving skills outside of software engineering.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
