@@ -2,14 +2,15 @@
   "name": "shaquille",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://amalakkad93.github.io/react-gh-pages",
+  "homepage": "http://amalakkad93.github.io/amalakkad93.github.io",
+
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "vite build",
-    "start": "react-scripts start",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
@@ -45,5 +46,17 @@
     "postcss": "^8.4.23",
     "tailwindcss": "^3.3.2",
     "vite": "^4.3.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
