@@ -6,5 +6,7 @@ import Tech from './Tech';
 import Experience from './Experience';
 import Projects from './Projects';
 import Contact from './Contact';
+import GameOfLife from './GameOfLife/GameOfLife';
+import ErrorBoundary from './ErrorBoundary';
 
-export { Hero, Navbar, About, Tech, Experience, Projects, Contact, BallCanvas };
+export { Hero, Navbar, About, Tech, Experience, Projects, Contact, GameOfLife, ErrorBoundary, BallCanvas };

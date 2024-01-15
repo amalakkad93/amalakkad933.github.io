@@ -30,14 +30,14 @@ const Contact = () => {
 
   return (
     <div className="-mt-[8rem] xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
-      
+
       <motion.div
         variants={slideIn('left', 'tween', 0.2, 1)}
         className="flex-[0.75] bg-jet p-8 rounded-2xl">
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadTextLight}>Contact.</h3>
         {/* Contact Information Section */}
-        <div className="contact-info mb-8 flex items-center justify-between">
+        <div className="contact-info mb-8 flex flex-col sm:flex-row items-center justify-between">
           <p className="flex items-center text-timberWolf">
             <FontAwesomeIcon icon={faMapMarkerAlt} className="mr-2" />
             1156 W 20th St, Upland, CA 91784, USA

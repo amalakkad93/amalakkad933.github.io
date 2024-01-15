@@ -49,3 +49,19 @@ const BallCanvas = ({ icon }) => {
 };
 
 export default BallCanvas;
+
+
+// const BallCanvas = ({ icon }) => {
+//   return (
+//     <Canvas frameloop="always" gl={{ preserveDrawingBuffer: true }}>
+//       <Suspense fallback={<Loader />}>
+//         <OrbitControls enableZoom={false} position0={0} />
+//         <Ball imgUrl={icon} />
+//       </Suspense>
+
+//       <Preload all />
+//     </Canvas>
+//   );
+// };
+
+// export default BallCanvas;
