@@ -23,11 +23,11 @@ const App = () => {
         <div className="bg-about bg-cover bg-center bg-no-repeat">
           <About />
         </div>
-        <ErrorBoundary>
+
         <div className="bg-tech bg-cover bg-center bg-no-repeat pb-10">
           <Tech />
         </div>
-        </ErrorBoundary>
+
         <Projects />
 
         <div
@@ -40,11 +40,11 @@ const App = () => {
           </div>
         </div>
 
-        <ErrorBoundary>
+
           <div className="bg-game-of-life bg-cover bg-center bg-no-repeat">
             <GameOfLife />
           </div>
-        </ErrorBoundary>
+        
 
         <div className="relative z-0">
           <Contact />
